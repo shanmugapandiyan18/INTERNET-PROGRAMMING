@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Cake Ordering</title>
+</head>
+<body>
+    <h1>Online Cake Store</h1>
+
+    <h2>Cake List</h2>
+    <p>Chocolate Cake - ₹500</p>
+    <p>Vanilla Cake - ₹400</p>
+    <p>Black Forest Cake - ₹600</p>
+
+    <h2>Order Cake</h2>
+    <form>
+        Name: <input type="text" required><br><br>
+        Email: <input type="email" required><br><br>
+
+        Select Cake:
+        <select>
+            <option>Chocolate Cake</option>
+            <option>Vanilla Cake</option>
+            <option>Black Forest Cake</option>
+        </select><br><br>
+
+        Quantity: <input type="number" min="1" required><br><br>
+        Cake Message: <input type="text"><br><br>
+        Delivery Date: <input type="date" required><br><br>
+        Address: <textarea required></textarea><br><br>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear">
+    </form>
+
+    <h2>My Orders</h2>
+    <button type="button">View Orders</button>
+
+    <h2>Admin Panel</h2>
+    <p>Manage cakes, prices, images and order status.</p>
+</body>
+</html>

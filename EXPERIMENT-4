@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Reservation</title>
+</head>
+<body>
+    <h1>Online Train Reservation</h1>
+
+    <h2>Search Train</h2>
+    <form>
+        From: <input type="text" required><br><br>
+        To: <input type="text" required><br><br>
+        Date: <input type="date" required><br><br>
+        Class:
+        <select>
+            <option>Sleeper</option>
+            <option>AC 3 Tier</option>
+            <option>AC 2 Tier</option>
+            <option>First Class</option>
+        </select><br><br>
+        Passenger Name: <input type="text" required><br><br>
+        <input type="submit" value="Book Ticket">
+    </form>
+
+    <h2>Check PNR Status</h2>
+    <input type="text" placeholder="Enter PNR Number">
+    <button type="button">Check Status</button>
+
+    <h2>Cancel Ticket</h2>
+    <input type="text" placeholder="Enter PNR Number">
+    <button type="button">Cancel Ticket</button>
+
+    <h2>Admin Panel</h2>
+    <p>Manage trains, fares, bookings and refunds.</p>
+</body>
+</html>

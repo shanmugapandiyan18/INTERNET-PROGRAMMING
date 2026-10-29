@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MedCare Hospital</title>
+</head>
+<body>
+    <h2>MedCare Hospital Appointment</h2>
+
+    <form>
+        Patient Name: <input type="text" required><br><br>
+        Email: <input type="email" required><br><br>
+
+        Specialty:
+        <select>
+            <option>Cardiology</option>
+            <option>Dermatology</option>
+            <option>Orthopedics</option>
+            <option>General Medicine</option>
+        </select><br><br>
+
+        Hospital Location:
+        <input type="text" placeholder="Enter city"><br><br>
+
+        Doctor:
+        <select>
+            <option>Dr. Kumar</option>
+            <option>Dr. Priya</option>
+        </select><br><br>
+
+        Date: <input type="date" required><br><br>
+        Time: <input type="time" required><br><br>
+
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

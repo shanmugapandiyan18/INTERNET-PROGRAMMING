@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Booking</title>
+</head>
+<body>
+    <h1>Online Bus Ticket Booking</h1>
+
+    <h2>User Registration</h2>
+    <form>
+        Name: <input type="text" required><br><br>
+        Email: <input type="email" required><br><br>
+        Password: <input type="password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <h2>Search and Book Bus</h2>
+    <form>
+        From: <input type="text" required><br><br>
+        To: <input type="text" required><br><br>
+        Journey Date: <input type="date" required><br><br>
+
+        Bus Type:
+        <select>
+            <option>Volvo</option>
+            <option>Sleeper</option>
+            <option>Coach</option>
+        </select><br><br>
+
+        Seats: <input type="number" min="1" required><br><br>
+        Passenger Name: <input type="text" required><br><br>
+
+        <input type="submit" value="Book Ticket">
+        <input type="reset" value="Clear">
+    </form>
+
+    <h2>Cancel Ticket</h2>
+    <input type="text" placeholder="Booking ID">
+    <button type="button">Cancel</button>
+
+    <h2>Comments</h2>
+    <textarea placeholder="Enter your comments"></textarea><br><br>
+    <button type="button">Submit Comment</button>
+
+    <h2>Admin Panel</h2>
+    <p>Manage buses, categories, users and reports.</p>
+
+    <h2>Contact Us</h2>
+    <p>Email: busbooking@example.com</p>
+</body>
+</html>

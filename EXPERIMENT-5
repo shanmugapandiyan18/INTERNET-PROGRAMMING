@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Reservation</title>
+</head>
+<body>
+    <h1>Online Flight Reservation</h1>
+
+    <h2>Search Flight</h2>
+    <form>
+        From: <input type="text" required><br><br>
+        To: <input type="text" required><br><br>
+        Date: <input type="date" required><br><br>
+        Class:
+        <select>
+            <option>Economy</option>
+            <option>Business</option>
+            <option>First Class</option>
+        </select><br><br>
+        Passenger Name: <input type="text" required><br><br>
+        <input type="submit" value="Book Flight">
+        <input type="reset" value="Clear">
+    </form>
+
+    <h2>My Ticket</h2>
+    <button type="button">View Ticket</button>
+    <button type="button">Print Ticket</button>
+
+    <h2>Cancel Ticket</h2>
+    <input type="text" placeholder="Booking ID">
+    <button type="button">Cancel</button>
+
+    <h2>Customer Feedback</h2>
+    <textarea placeholder="Enter feedback"></textarea><br><br>
+    <button type="button">Submit</button>
+
+    <h2>Admin Panel</h2>
+    <p>Manage flights, seats, users and reports.</p>
+</body>
+</html>

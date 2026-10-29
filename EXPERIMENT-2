@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <h1>Online Hotel Booking</h1>
+
+    <h2>Room Types</h2>
+    <p>Single Room - ₹1000</p>
+    <p>Double Room - ₹2000</p>
+    <p>Deluxe Room - ₹3000</p>
+    <p>Suite Room - ₹5000</p>
+
+    <h2>Book a Room</h2>
+    <form>
+        Name: <input type="text" required><br><br>
+        Destination: <input type="text" required><br><br>
+        Check-in: <input type="date" required><br><br>
+        Check-out: <input type="date" required><br><br>
+        Guests: <input type="number" min="1" required><br><br>
+
+        Room:
+        <select>
+            <option>Single</option>
+            <option>Double</option>
+            <option>Deluxe</option>
+            <option>Suite</option>
+        </select><br><br>
+
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Clear">
+    </form>
+
+    <h2>Contact Us</h2>
+    <p>Email: hotel@example.com</p>
+    <p>Customer Service: 1234567890</p>
+</body>
+</html>

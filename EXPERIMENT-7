@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beauty Parlour Booking</title>
+</head>
+<body>
+    <h2>Beauty Parlour Appointment</h2>
+
+    <form>
+        Name: <input type="text" required><br><br>
+        Email: <input type="email" required><br><br>
+
+        Service:
+        <select>
+            <option>Haircut</option>
+            <option>Facial</option>
+            <option>Makeup</option>
+        </select><br><br>
+
+        Stylist:
+        <select>
+            <option>Stylist 1</option>
+            <option>Stylist 2</option>
+        </select><br><br>
+
+        Date: <input type="date" required><br><br>
+        Time: <input type="time" required><br><br>
+
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
